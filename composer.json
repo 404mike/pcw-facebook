@@ -1,0 +1,16 @@
+{
+    "name": "mij/facebook",
+    "description": "Facebook graph to PCW API",
+    "authors": [
+        {
+            "name": "Michael Jones",
+            "email": "michaeljones401@gmail.com"
+        }
+    ],
+    "require": {
+        "facebook/php-sdk-v4": "*"
+    },
+    "autoload": {
+        "psr-4": {"llgc\\src\\": "src/"}
+    }    
+}
